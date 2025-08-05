@@ -3,96 +3,115 @@ I want to create a list of things that can be learned related to Unity.
 # 1. Programing
 ## 1.1. C#
 ### 1.1.1. Variables
-- [x] Types of Variables
-- [x] Logical Operators
-- [x] Concatination and Interpolation
-- [x] Converting
-- [x] Increment and Decrement
-- [x] Enum
+- [ ] Types of Variables
+- [ ] Logical Operators
+- [ ] Concatination and Interpolation
+- [ ] Converting
+- [ ] Increment and Decrement
+- [ ] Enum
 - [ ] Fields
 - [ ] Properties
 
 ### 1.1.2. Control Flow
-- [x] If Statements
-- [x] Switch
-- [x] Ternary Operators
+- [ ] If Statements
+- [ ] Switch
+- [ ] Ternary Operators
 - [ ] Exception Handling (try/catch/finally)
 
 ### 1.1.3. Collections
-- [x] Arrays
-- [x] Lists
-- [x] Dictionaries
+- [ ] Arrays
+- [ ] Lists
+- [ ] Dictionaries
 - [ ] HashSet
 - [ ] Queue / Stack
+- [ ] IEnumerable
 
 ### 1.1.4. Loops
-- [x] For
-- [x] While
-- [x] Foreach
+- [ ] For
+- [ ] While
+- [ ] Foreach
 - [ ] Break / Continue
 
 ### 1.1.5. Functions
-- [x] Arguments
-- [x] Return Types
-- [x] Ref and Out
-- [x] Overload
+- [ ] Arguments
+- [ ] Return Types
+- [ ] Ref and Out
+- [ ] Overload
 - [ ] Params
 - [ ] Optional Parameters
 - [ ] Local Functions
 - [ ] Lambda Expressions
+- [ ] Generic Methods
+- [ ] Tuples
+- [ ] Extension Methods
 
 ### 1.1.6. Class
-- [x] Access Modifiers
+- [ ] Access Modifiers
 - [ ] Constructor and Destructor
 - [ ] Static vs Instance Members
 - [ ] This Keyword
 - [ ] Object Initializers
-
-### 1.1.7. Delegates
-- [x] Delegates
-- [ ] Events
-- [ ] Action / Func / Predicate
-- [ ] Multicast Delegates
-
-### 1.1.8. Inheritance & Polymorphism
 - [ ] Inheritance
 - [ ] Virtual / Override
 - [ ] Abstract Classes
 - [ ] Interfaces
 - [ ] Polymorphism
 - [ ] Hiding
+- [ ] Generic Classes
 
-### 1.1.9. Object-Oriented Principles (OOP)
-- [ ] Encapsulation
-- [ ] Dependency Injection
-- [ ] Relationship Between Classes
-- [ ] Composition
-- [ ] Aggregation
-- [ ] Association
+### 1.1.7. Delegates
+- [ ] Delegates
+- [ ] Events
+- [ ] Action / Func / Predicate
+- [ ] Multicast Delegates
 
-### 1.1.10. LINQ
+### 1.1.8. LINQ
 - [ ] Select / Where / First
 - [ ] ToList, Any, All
 - [ ] OrderBy / ThenBy
 - [ ] GroupBy
 
-### 1.1.11. Asynchronous Programming
+### 1.1.9. Asynchronous Programming
 - [ ] Async / Await
 - [ ] Task
 - [ ] CancellationToken
 - [ ] Delay, Wait, Result
+- [ ] Coroutine
+- [ ] UniTask
 
-### 1.1.12. Serialization
+### 1.1.10. Serialization
 - [ ] JSON (System.Text.Json / Newtonsoft)
 - [ ] Binary Serialization
 - [ ] XML Serialization
 - [ ] Unity's `JsonUtility`
 
-## 1.2. Naming Conventions
+## 1.2. Clean Code
+### 1.2.1. Naming Conventions
+- [ ] Naming Convention
 
-## 1.3. Design Patterns
+### 1.2.2. SOLID
+- [ ] Single Responsibility Principle
+- [ ] Open-closed Principle
+- [ ] Liskov Subsititution Principle
+- [ ] Interface Segregation Principle
+- [ ] Dependency Inversion Principle
 
-## 1.4. Game Mathematice
+### 1.2.3. Design Patterns
+
+### 1.2.4. Object-Oriented Principles (OOP)
+- [ ] Don't Repeat Yourself
+- [ ] Abstraction
+- [ ] Polymorphism
+- [ ] Inheritance
+- [ ] Encapsulation
+- [ ] Relationships Between Classes
+
+## 1.3. Game Mathematice
+- [ ] Vector
+- [ ] Linear Algebra
+- [ ] Euler Angle
+- [ ] Quaternion
+- [ ] Curvers
 
 # 2. Visual
 ## 2.1. User Interface
@@ -100,23 +119,102 @@ I want to create a list of things that can be learned related to Unity.
 ### 2.1.2. UI Toolkit
 
 ## 2.2. Light
+### 2.2.1. Types of Light
 
-## 2.3. Assets
+### 2.2.2. Reflections
 
-## 2.4. Shaders
+### 2.2.3. Shadows
+
+## 2.3. Shaders
+### 2.3.1. Shader Graph
+### 2.3.2. CG
+### 2.3.3. GLSL
+### 2.3.4. HLS
+
+## 2.4. Animations
+### 2.4.1. Animation Clip
+
+### 2.4.2. Animator
+- [ ] Animator Parameters
+- [ ] Blend Tree
+
+## 2.5. Particle System
 
 # 3. Audio
+## 3.1. Audio Source
+
+## 3.2. Audio Mixer
+
+## 3.3. Other
+### 3.3.1. Fmod
+
+### 3.3.2. Wwise
 
 # 4. Unity
-## 4.1. Tools
+## 4.1. Unity Concept
+### 4.1.1. Editor
+- [ ] Hierarchy
+- [ ] Project
+- [ ] Inspector
+- [ ] Attributes
+- [ ] Custom Editor
+
+### 4.1.2. Assets
+- [ ] Textures
+- [ ] Meshes
+- [ ] Materials
+- [ ] Sprite
+- [ ] Prefabs
+- [ ] Prefabs Variants
+- [ ] GameObject
+
+## 4.2. Physics
+### 4.2.1. Colider
+
+### 4.2.2. Rigidbody
+
+### 4.2.3. Physical layers
+
+### 4.2.4. Colider
+
+### 4.2.5. Joint
+
+### 4.2.6. Ragdol
+
+## 4.3. Tools
+### 4.3.1. New Input System
+
+### 4.3.2. Tilemap
+
+### 4.3.3. Unity Job System
+
+## 4.4. Game AI
+### 4.4.1. Finite-state machine
+
+### 4.4.2. Behaviour tree
+
+### 4.4.3. Utility AI
+
+### 4.4.4. Machine Learning (Unity ML)
+
+### 4.4.4. Finding a path
+- [ ] Navmesh
+- [ ] Pathdifinging
 
 # 5. Gameplay Systems
 ## 5.1. Reusable Systems
-## 5.1.1. First Person Controller
-## 5.1.2. Third Person Controller
-## 5.1.3. Save System
-## 5.1.4. Quest System
-## 5.1.5. Dialogue System
+### 5.1.1. First Person Controller
+
+### 5.1.2. Third Person Controller
+
+### 5.1.3. Save System
+- [ ] To File (JSON)
+- [ ] Player Prefs
+- [ ] Cloud Save
+
+### 5.1.4. Quest System
+
+### 5.1.5. Dialogue System
 
 ## 5.2. DOTS
 
@@ -141,3 +239,29 @@ I want to create a list of things that can be learned related to Unity.
 ## 6.7. VR
 
 ## 6.8. AR
+
+# 7. Debugging & Optimization
+## 7.1. Profiling
+- [ ] Unity Profiler
+- [ ] Deep Profiling
+- [ ] Custom Profiling Markers
+
+## 7.2. Debugging
+- [ ] Debug.Log / Debug.DrawLine
+- [ ] Breakpoints
+- [ ] Visual Studio Debugger
+- [ ] Debugging Coroutines
+- [ ] Physics Debugging
+- [ ] Rendering Debug Views
+
+## 7.3. Performance Optimization
+- [ ] Memory Optimization
+- [ ] Batching Optimization (SRP Batcher / Static & Dynamic Batching)
+- [ ] Garbage Collection
+- [ ] Object Pooling
+- [ ] Script Execution Order
+- [ ] Update vs FixedUpdate vs LateUpdate
+
+## 7.4. Resource Management
+### 7.4.1. Adressables
+### 7.4.2. Assembly Definitions
