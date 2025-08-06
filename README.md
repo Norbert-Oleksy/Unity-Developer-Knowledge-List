@@ -11,6 +11,7 @@ I want to create a list of things that can be learned related to Unity.
 - [ ] Enum
 - [ ] Fields
 - [ ] Properties
+- [ ] Nullable
 
 ### 1.1.2. Control Flow
 - [ ] If Statements
@@ -58,6 +59,7 @@ I want to create a list of things that can be learned related to Unity.
 - [ ] Polymorphism
 - [ ] Hiding
 - [ ] Generic Classes
+- [ ] Namespaces 
 
 ### 1.1.7. Delegates
 - [ ] Delegates
@@ -86,9 +88,11 @@ I want to create a list of things that can be learned related to Unity.
 - [ ] Unity's `JsonUtility`
 
 ## 1.2. Clean Code
-### 1.2.1. Good Manners in C#
+### 1.2.1. Good Manners
 - [ ] Naming Convention
 - [ ] Order of Items in Classes
+- [ ] Folder Structure Best Practices
+- [ ] Script Execution Order Management
 
 ### 1.2.2. SOLID
 - [ ] Single Responsibility Principle
@@ -272,6 +276,8 @@ I want to create a list of things that can be learned related to Unity.
 ### 5.1.4. Quest System
 
 ### 5.1.5. Dialogue System
+
+### 5.1.6. Inventory System
 
 ## 5.2. DOTS
 
