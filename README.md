@@ -86,8 +86,9 @@ I want to create a list of things that can be learned related to Unity.
 - [ ] Unity's `JsonUtility`
 
 ## 1.2. Clean Code
-### 1.2.1. Naming Conventions
+### 1.2.1. Good Manners in C#
 - [ ] Naming Convention
+- [ ] Order of Items in Classes
 
 ### 1.2.2. SOLID
 - [ ] Single Responsibility Principle
@@ -97,6 +98,17 @@ I want to create a list of things that can be learned related to Unity.
 - [ ] Dependency Inversion Principle
 
 ### 1.2.3. Design Patterns
+- [ ] Strategy
+- [ ] Observer
+- [ ] Command
+- [ ] State
+- [ ] Decorator
+- [ ] Facade
+- [ ] Abstract Factory
+- [ ] Singleton
+- [ ] Object Pool
+- [ ] Service Locator
+- [ ] Visitor
 
 ### 1.2.4. Object-Oriented Principles (OOP)
 - [ ] Don't Repeat Yourself
@@ -106,16 +118,31 @@ I want to create a list of things that can be learned related to Unity.
 - [ ] Encapsulation
 - [ ] Relationships Between Classes
 
-## 1.3. Game Mathematice
+## 1.3. Architecture
+- [ ] Finite-State Machine (FSM)
+- [ ] MVC / MVVM / MVP
+- [ ] Entity-Component-System (ECS)
+- [ ] Dependency Injection
+
+## 1.4. Game Mathematice
 - [ ] Vector
 - [ ] Linear Algebra
 - [ ] Euler Angle
 - [ ] Quaternion
 - [ ] Curvers
 
+## 1.5. Procedural Generation
+- [ ] Perlin Noise
+- [ ] Simplex Noise
+- [ ] Chunk-Based Generation
+- [ ] Wave Function Collapse
+- [ ] Randomization Techniques
+- [ ] Noise-Based Terrain
+
 # 2. Visual
 ## 2.1. User Interface
 ### 2.1.1. Canva
+
 ### 2.1.2. UI Toolkit
 
 ## 2.2. Light
@@ -127,8 +154,11 @@ I want to create a list of things that can be learned related to Unity.
 
 ## 2.3. Shaders
 ### 2.3.1. Shader Graph
+
 ### 2.3.2. CG
+
 ### 2.3.3. GLSL
+
 ### 2.3.4. HLS
 
 ## 2.4. Animations
@@ -138,7 +168,31 @@ I want to create a list of things that can be learned related to Unity.
 - [ ] Animator Parameters
 - [ ] Blend Tree
 
+### 2.4.3. Timeline
+
+### 2.4.4. DOTween
+
+### 2.4.5. Cinemachine
+
 ## 2.5. Particle System
+
+## 2.6. Render Pipelines
+### 2.6.1. Scriptable Render Pipeline (SRP)
+
+### 2.6.2. Universal Render Pipeline (URP)
+
+### 2.6.3. High Definition Render Pipeline (HDRP)
+
+## 2.7. 2D
+- [ ] Mask
+- [ ] Tilemap
+- [ ] Sprite
+
+## 2.8. 3D
+- [ ] LOD
+- [ ] Terrain Tool
+- [ ] ProBuilder
+- [ ] Splines
 
 # 3. Audio
 ## 3.1. Audio Source
@@ -166,27 +220,30 @@ I want to create a list of things that can be learned related to Unity.
 - [ ] Sprite
 - [ ] Prefabs
 - [ ] Prefabs Variants
+- [ ] Nested Prefabs
 - [ ] GameObject
+- [ ] scene
 
 ## 4.2. Physics
-### 4.2.1. Colider
-
-### 4.2.2. Rigidbody
-
-### 4.2.3. Physical layers
-
-### 4.2.4. Colider
-
-### 4.2.5. Joint
-
-### 4.2.6. Ragdol
+- [ ] Collider
+- [ ] Rigidbody
+- [ ] Physical layers
+- [ ] Colider
+- [ ] Joint
+- [ ] Ragdol
+- [ ] Raycast
+- [ ] Overlaps
 
 ## 4.3. Tools
 ### 4.3.1. New Input System
 
-### 4.3.2. Tilemap
+### 4.3.2. Unity Job System
 
-### 4.3.3. Unity Job System
+### 4.3.3. Support Tools
+
+### 4.3.4. Analytics Tools
+
+### 4.3.5. Ads Tools
 
 ## 4.4. Game AI
 ### 4.4.1. Finite-state machine
@@ -258,10 +315,20 @@ I want to create a list of things that can be learned related to Unity.
 - [ ] Memory Optimization
 - [ ] Batching Optimization (SRP Batcher / Static & Dynamic Batching)
 - [ ] Garbage Collection
+- [ ] Boxing / Unboxing
 - [ ] Object Pooling
 - [ ] Script Execution Order
 - [ ] Update vs FixedUpdate vs LateUpdate
 
 ## 7.4. Resource Management
-### 7.4.1. Adressables
-### 7.4.2. Assembly Definitions
+### 7.4.1. Addressables
+### 7.4.2. Asset Bundles
+### 7.4.3. Assembly Definitions
+### 7.4.3. IDisposable / Dispose
+
+## 7.5. Testing
+### 7.5.1. Unit Tests
+### 7.5.2. Auto Tests
+### 7.5.3. Benchmarks
+### 7.5.4. Load Testing
+### 7.5.5. Testing Tools
