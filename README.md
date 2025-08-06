@@ -3,28 +3,25 @@ I want to create a list of things that can be learned related to Unity.
 # 1. Programing
 ## 1.1. C#
 ### 1.1.1. Variables
-- [ ] Types of Variables
-- [ ] Logical Operators
-- [ ] Concatination and Interpolation
-- [ ] Converting
-- [ ] Increment and Decrement
-- [ ] Enum
-- [ ] Fields
-- [ ] Properties
-- [ ] Nullable
+- [X] Types of Variables [LINK](https://github.com/Norbert-Oleksy/Knowledge-Storage/tree/25927cc9e4772bdcf6b0d24127f9810f12fdcd31/Getting%20Started%20C%23%20-%20By%20Nick%20Cosentino/BasicValueTypes)
+- [X] Concatination and Interpolation [LINK](https://github.com/Norbert-Oleksy/Knowledge-Storage/blob/25927cc9e4772bdcf6b0d24127f9810f12fdcd31/Getting%20Started%20C%23%20-%20By%20Nick%20Cosentino/BasicValueTypes/StringVariables.cs)
+- [X] Converting
+- [X] Enum
+- [X] Nullable
 
 ### 1.1.2. Control Flow
-- [ ] If Statements
-- [ ] Switch
-- [ ] Ternary Operators
-- [ ] Exception Handling (try/catch/finally)
+- [X] If Statements
+- [X] Switch
+- [X] Ternary Operators
+- [X] Logical Operators
+- [X] Exception Handling (try/catch/finally)
 
 ### 1.1.3. Collections
-- [ ] Arrays
-- [ ] Lists
-- [ ] Dictionaries
-- [ ] HashSet
-- [ ] Queue / Stack
+- [X] Arrays
+- [X] Lists
+- [X] Dictionaries
+- [X] HashSet
+- [X] Queue / Stack
 - [ ] IEnumerable
 
 ### 1.1.4. Loops
@@ -59,7 +56,8 @@ I want to create a list of things that can be learned related to Unity.
 - [ ] Polymorphism
 - [ ] Hiding
 - [ ] Generic Classes
-- [ ] Namespaces 
+- [ ] Namespaces
+- [ ] Properties
 
 ### 1.1.7. Delegates
 - [ ] Delegates
